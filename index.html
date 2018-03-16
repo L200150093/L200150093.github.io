@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html, body{
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+          background-color: #0C3C41;
+          color: #FCAC14;
+          text-align: left;
+          padding: 20px;
+          min-height: 23px;
+      }
+       #map {
+        height: 600px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <div class="header">Tugas 1. dsn. Glagahombo ds. Tawang kac. Susukan</div>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -7.422054, lng: 110.632509};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVVOk8b4335IcCIp505bBA_1YyukQ6pLs&callback=initMap"
+    async defer></script>
+  </body>
+</html>
+
