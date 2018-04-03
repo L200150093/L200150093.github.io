@@ -32462,13 +32462,6 @@
       ]
      ]
     ]
-   },
-   "properties": {
-    "GEO_ID": "0400000US11",
-    "STATE": "11",
-    "NAME": "District of Columbia",
-    "CENSUSAREA": 61.048,
-    "gx_id": "9"
    }
   }
  ]
