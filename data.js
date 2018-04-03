@@ -1,14 +1,13 @@
 {
- "type": "FeatureCollection",
- "features": [
-  {
-   "type": "Feature",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
       "properties": {},
       "geometry": {
         "type": "LineString",
         "name":"Provisi 12",
         "coordinates": [
-         [
           [
             108.88489723205565,
             -6.809299102915712
@@ -4597,9 +4596,8 @@
             108.88500452041626,
             -6.809320409230907
           ]
-        ]
+      
         ]
       }
-  }
- ]
-}
+    }
+  ]}
